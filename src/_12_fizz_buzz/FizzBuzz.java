@@ -3,6 +3,7 @@
 
 package _12_fizz_buzz;
 
+import java.util.Random;
 
 /**
 * Fizz Buzz
@@ -26,6 +27,20 @@ package _12_fizz_buzz;
 **/
 
 public class FizzBuzz {
+public static void main(String[] args) {
+	int FizzBuzz = 0;
+	if (FizzBuzz % 3 == 0) {
+		System.out.println("Fizz");
+	}
+	if (FizzBuzz % 5 == 0) {
+		System.out.println("Buzz");
+	}
+	if (FizzBuzz % 15 == 0) {
+		System.out.println("FizzBuzz");
+	}
+	//print #'s 1-20 with FizzBuzz rules
 
+    }
 }
+
 
