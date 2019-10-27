@@ -28,19 +28,26 @@ import java.util.Random;
 
 public class FizzBuzz {
 public static void main(String[] args) {
-	int FizzBuzz = 0;
-	if (FizzBuzz % 3 == 0) {
-		System.out.println("Fizz");
+		int i = 0;
+	for (i=1; i<21; i++) {
+		if (i % 3 == 0 && i%5 == 0) {
+			System.out.print("Fizzbuzz");
+		}
+		else if (i % 3 == 0) {
+			System.out.print("Fizz");
+		}
+		else if (i % 5 == 0) {
+			System.out.print("Buzz");
+		}
+		else {
+			System.out.print(i);
+		}
 	}
-	if (FizzBuzz % 5 == 0) {
-		System.out.println("Buzz");
+		
+		
+		
 	}
-	if (FizzBuzz % 15 == 0) {
-		System.out.println("FizzBuzz");
-	}
-	//print #'s 1-20 with FizzBuzz rules
-
     }
-}
+
 
 
